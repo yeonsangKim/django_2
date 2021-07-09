@@ -7,7 +7,7 @@ def hello_world(request):
     if request.method=="POST":
 
         return render(request, 'accountapp/hello_world.html',
-                      context={'text':'POST METHOD!'})
+                      context={'text' : 'POST METHOD!'})
     else :
         return render(request, 'accountapp/hello_world.html',
-                      context={'text':'GET METHOD!'})
+                      context={'text' : 'GET METHOD!'})
