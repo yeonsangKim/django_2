@@ -24,6 +24,11 @@ class ProfileCreateView(UpdateView):
         form.instance.user=self.request.user    #요청을 보낸 유저가 객체가 된다
         return  super().form_valid(form)
 
+    def get_success_url(self):
+        from django.urls import reverse
+        return reverse('accountapp:detail',kwargs={'pk':self.object.user.pk})
+
+
 
 @method_decorator(profile_ownership_required, 'get')
 @method_decorator(profile_ownership_required, 'post')
@@ -31,5 +36,10 @@ class ProfileUpdateView(UpdateView):
     model = Profile
     form_class = ProfileCreationForm
     context_object_name = 'target_profile'
-    success_url = reverse_lazy('accountapp:hello_world')
+
     template_name = 'profileapp/update.html'
+
+    def get_success_url(self):
+
+        from django.urls import reverse
+        return reverse('accountapp:detail', kwargs={'pk':self.object.user.pk})
