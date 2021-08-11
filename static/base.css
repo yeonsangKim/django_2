@@ -1,33 +1,35 @@
-.ezirp_header_logo{
-    margin: 2rem 0;  font-family: 'Noto Serif', serif ;
+.pragmatic_header_logo {
+    margin: 2rem 0;
+    font-family: 'Pacifico', cursive;
 }
 
-.ezirp_header_button{
-    margin-bottom: 2rem ;  font-family: 'Noto Serif', serif ;
+.pragmatic_header_button {
+    margin-bottom: 2rem;
 }
 
-.ezirp_footer_logo{
-    margin-top: 1.5rem; font-family: 'Noto Serif', serif;
+.pragmatic_footer_logo {
+    margin: 1.5rem 0;
+    font-family: 'Pacifico', cursive;
 }
 
-.ezirp_footer_button{
-    margin: 1.5rem 0; font-family: 'Noto Serif', serif;
+.pragmatic_footer_button {
+    margin-top: 1.5rem
 }
 
-.mw-500{
+.mw-500 {
     max-width: 500px;
     padding: 1rem 1.5rem;
 }
 
-.profile_image{
+.profile_image {
     height: 12rem;
-    width:12rem;
+    width: 12rem;
     border-radius: 20rem;
     object-fit: cover;
 }
 
-.NNS_B{
-    font-family: "Noto Serif",cursive;
+.NNS_B {
+    font-family: "NanumSquareB", cursive;
 }
 
 .round_button {
@@ -51,4 +53,13 @@
     border-radius: 2rem;
     width: 60%;
     box-shadow: 0 0 1rem #bcbcbc;
+}
+
+.comment_box {
+    text-align: left;
+    border: solid;
+    border-color: #dfdfdf;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
 }
