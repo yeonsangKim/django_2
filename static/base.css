@@ -1,19 +1,20 @@
-.pragmatic_header_logo {
+.ezirp_header_logo {
     margin: 2rem 0;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Palette Mosaic', serif;
 }
 
-.pragmatic_header_button {
+.ezirp_header_button {
     margin-bottom: 2rem;
 }
 
-.pragmatic_footer_logo {
+.ezirp_footer_logo {
     margin: 1.5rem 0;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Palette Mosaic', serif;
 }
 
-.pragmatic_footer_button {
-    margin-top: 1.5rem
+.ezirp_footer_button {
+    margin-top: 1.5rem;
+    font-family: 'Palette Mosaic', serif;
 }
 
 .mw-500 {
@@ -29,7 +30,8 @@
 }
 
 .NNS_B {
-    font-family: "NanumSquareB", cursive;
+    font-family: 'STIX Two Text', serif;
+
 }
 
 .round_button {
@@ -62,4 +64,11 @@
     border-radius: 1rem;
     padding: 1rem;
     margin: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        /* default font-size = 16px */
+        font-size: 13px;
+    }
 }
