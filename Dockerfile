@@ -5,6 +5,7 @@ WORKDIR /home/
 
 RUN git clone https://github.com/yeonsangKim/django_2.git
 
+WORKDIR /home/django_2/
 
 RUN echo "django-insecure-o@6hnon*ecf)=#2nn=3nfgl6yf*%nhc8i)mt!3z1_jl&acv1o7"  > .env
 
